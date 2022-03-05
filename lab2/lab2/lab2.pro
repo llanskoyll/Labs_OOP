@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     csvreader.cpp \
     employe.cpp \
+    functions.cpp \
     main.cpp \
     mainwindow.cpp
 
@@ -19,6 +20,7 @@ DISTFILES += \
 HEADERS += \
     csvreader.h \
     employe.h \
+    functions.h \
     mainwindow.h
 
 FORMS += \

@@ -5,6 +5,7 @@
 #include <fstream>
 #include <employe.h>
 #include <vector>
+#include "mainwindow.h"
 
 class CSVReader
 {
@@ -13,7 +14,7 @@ public:
     CSVReader(const QString& filename);
     ~CSVReader();
     bool is_open() const {return fin.is_open();}
-    std::vector<std::string> split(const std::string& str, char sym); // метод split
+
     std::vector<Employe> readAll(); // метод чтения
 };
 
