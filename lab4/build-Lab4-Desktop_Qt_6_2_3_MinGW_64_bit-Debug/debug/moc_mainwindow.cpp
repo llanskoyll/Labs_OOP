@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../../lab4/lab3/mainwindow.h"
+#include "../../Lab4/mainwindow.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
@@ -23,21 +23,21 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
     const uint offsetsAndSize[10];
-    char stringdata0[47];
+    char stringdata0[46];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_MainWindow_t, stringdata0) + ofs), len 
 static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
     {
 QT_MOC_LITERAL(0, 10), // "MainWindow"
-QT_MOC_LITERAL(11, 11), // "findEmploye"
-QT_MOC_LITERAL(23, 0), // ""
-QT_MOC_LITERAL(24, 10), // "addEmploye"
-QT_MOC_LITERAL(35, 11) // "saveEmploye"
+QT_MOC_LITERAL(11, 12), // "findEmployee"
+QT_MOC_LITERAL(24, 0), // ""
+QT_MOC_LITERAL(25, 11), // "addEmployee"
+QT_MOC_LITERAL(37, 8) // "saveFile"
 
     },
-    "MainWindow\0findEmploye\0\0addEmploye\0"
-    "saveEmploye"
+    "MainWindow\0findEmployee\0\0addEmployee\0"
+    "saveFile"
 };
 #undef QT_MOC_LITERAL
 
@@ -73,9 +73,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->findEmploye(); break;
-        case 1: _t->addEmploye(); break;
-        case 2: _t->saveEmploye(); break;
+        case 0: _t->findEmployee(); break;
+        case 1: _t->addEmployee(); break;
+        case 2: _t->saveFile(); break;
         default: ;
         }
     }

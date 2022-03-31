@@ -35,8 +35,6 @@ public:
     QPushButton *ButtonFind;
     QTextBrowser *textBrowser;
     QHBoxLayout *horizontalLayout;
-    QLabel *label;
-    QLineEdit *editId;
     QLabel *label_2;
     QLineEdit *editName;
     QLabel *label_3;
@@ -82,17 +80,6 @@ public:
 
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        label = new QLabel(centralwidget);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setMinimumSize(QSize(30, 20));
-
-        horizontalLayout->addWidget(label);
-
-        editId = new QLineEdit(centralwidget);
-        editId->setObjectName(QString::fromUtf8("editId"));
-
-        horizontalLayout->addWidget(editId);
-
         label_2 = new QLabel(centralwidget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
 
@@ -160,7 +147,6 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         editSearch->setText(QString());
         ButtonFind->setText(QCoreApplication::translate("MainWindow", "\320\230\321\201\320\272\320\260\321\202\321\214", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "ID: ", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "\320\244\320\260\320\274\320\270\320\273\320\270\321\217 \320\230\320\274\321\217: ", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "\320\223\320\276\320\264 \320\240\320\276\320\266\320\264\320\265\320\275\320\270\320\265: ", nullptr));
         label_4->setText(QCoreApplication::translate("MainWindow", "\320\237\320\276\320\273: ", nullptr));

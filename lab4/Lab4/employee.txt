@@ -1,0 +1,4 @@
+1;Art;2002;0
+2;Chort;2000;0
+3;Gosha Prosto;1999;1
+4;Aboba;2004;1
